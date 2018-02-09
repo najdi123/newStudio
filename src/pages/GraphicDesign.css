@@ -1,0 +1,140 @@
+
+div.content-wrap.container-fluid{
+    padding:0;
+}
+section.row.portfolio{
+    /*padding:1.3rem;*/
+    padding-bottom: 2rem;
+}
+.intro{
+    padding: 3rem 2rem 3rem 2rem;
+}
+.name{
+
+    border-left: 5px solid rgb(0, 240, 220);
+    letter-spacing: 2px;
+
+
+}
+img{
+    /*height: autopx;*/
+    /*width: 400px;*/
+    /*max-height: 459px;*/
+    /*max-width: 300px;*/
+    /*margin-right:20px;*/
+    display: block;
+    width: 100%;
+    height: auto;
+    /*margin-bottom: 2rem;*/
+}
+/*div.col-sm-12.col-md-6.col-lg-4.pax{*/
+.pax{
+    padding: 0.6rem;
+}
+.portfolio{
+    padding: 1.6rem;
+}
+/*portfolio images with hover description*/
+.img__wrap {
+    position: relative;
+
+}
+
+.img__description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+
+
+
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+}
+p.img__description{
+    vertical-align: middle;
+}
+
+.img__wrap:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Load more Button*/
+.portfolio .trigger_load_more.portfolio_load_more a.mediumbtn.be-button:hover {
+    background-color: rgb(0, 240, 220);
+}
+.portfolio .trigger_load_more.portfolio_load_more a.mediumbtn.be-button {
+    padding: 15px 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(0, 240, 220);
+    background-color: rgb(255, 255, 255);
+    color: rgb(40, 40, 41);
+    border-radius: 50px;
+    /*margin-top: 6rem;*/
+    margin-left: 40rem;
+    /*margin:4rem;*/
+    text-decoration: none;
+
+}
+
+
+.services{
+    background-color: darkblue;
+    padding-bottom: 1rem;
+    color: white;
+    text-decoration: none;
+
+}
+/*div.col-sm-12.col-md-6.col-lg-4.servax{*/
+    /*padding:1rem;*/
+/*}*/
+.row.services-wrapper{
+    padding:2rem;
+}
+div.col-sm-12.col-md-6.col-lg-4.servax{
+    padding:2rem;
+}
+.name{
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /*margin:2rem;*/
+}
+.intro{
+
+    padding: 4rem 1rem 1rem 1rem;
+    margin: 2rem 4rem 2rem 6rem;
+
+}
+.city-text{
+    padding: 1em 1em 0 2em;
+}
+.city-image{
+    padding:0;
+}
+.bb{
+    padding: 1rem 3rem 3rem 8rem;
+
+}
+/*.brand-building-image{*/
+div.col-sm-10.col-md-6{
+    padding: 0 1rem 4rem 7rem;
+}
+
+.brands-logo{
+    padding: 2rem 6rem 2rem 6rem;
+}
+.brand-logo{
+    padding-bottom:2rem;
+}
+.carousel-text{
+    background-color: darkblue;
+    height:250px;
+    text-align: center;
+    padding: 4rem 10rem 4rem 10rem;
+}
